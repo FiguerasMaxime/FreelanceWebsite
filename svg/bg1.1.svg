@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1382.775" height="1463.176" viewBox="0 0 1382.775 1463.176">
+  <defs>
+    <filter id="Tracé_2" x="0" y="0" width="1382.775" height="1463.176" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.948" y1="-0.009" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#41bca0"/>
+      <stop offset="1" stop-color="#35407a"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_110" data-name="Groupe 110" transform="translate(-542.765 15)">
+    <g transform="matrix(1, 0, 0, 1, 542.77, -15)" filter="url(#Tracé_2)">
+      <path id="Tracé_2-2" data-name="Tracé 2" d="M626.021,0S560.552,314.544,853.192,458.707c245.212,106.728,310.625,174.512,372.017,390.359,17.312,60.869,10.934,124.547,35.135,167.247,35.848,61.4,75.283,67.652,99.076,73.43s73.874,5.153,127.347,23.725,88.029,51.507,109.3,83.592c2.936,7.045,22.8,72.658,86.535,145.835,113.533,110.639,289.935,88.466,289.935,88.466V0Z" transform="translate(-594.77 12)" fill="#41bca0"/>
+    </g>
+    <path id="Tracé_1" data-name="Tracé 1" d="M626.021,0s-86.9,324.06,189.05,469.222c245.212,106.728,333.525,211.21,382.771,396.407,21.259,81.645.281,105.548,49.671,176.594,50.438,61.834,186.34,20.749,267.83,116.216,42.13,49.356,48.873,80.991,61.511,111.165,11.664,27.848,28.484,54.441,83.989,92.718,142.11,83.411,259.6,54.245,259.6,54.245L1920.757,0Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

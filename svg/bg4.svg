@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1277.795" height="1187.513" viewBox="0 0 1277.795 1187.513">
+  <defs>
+    <filter id="Tracé_324" x="0" y="0" width="1277.795" height="1187.513" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6a7ff4"/>
+      <stop offset="1" stop-color="#45539f"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_222" data-name="Groupe 222" transform="translate(25.562 12)">
+    <g id="Groupe_221" data-name="Groupe 221" transform="translate(-1.001 -0.729)">
+      <g transform="matrix(1, 0, 0, 1, -24.56, -11.27)" filter="url(#Tracé_324)">
+        <path id="Tracé_324-2" data-name="Tracé 324" d="M9585.438,1161.583l1247.795-.583-3.525,1157.513s-48.436-2.859-73.254-5.579c-326.512-35.778-348.982-254.533-713.6-237.576-215.486,10.022-334.035,92.875-456.289,177.884Z" transform="translate(-9560.44 -1149)" fill="#41bca0"/>
+      </g>
+      <path id="Tracé_323" data-name="Tracé 323" d="M9585.438,1160.516l1246.5-.244-2.5,1158.632s-46.262-2.6-72.717-5.5c-326.561-35.792-351.555-282.6-716.223-265.639-206.035,9.585-336.6,97.555-455.5,180.988Z" transform="translate(-9585 -1160.271)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
