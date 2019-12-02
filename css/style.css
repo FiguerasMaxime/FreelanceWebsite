@@ -1,4 +1,4 @@
-* {
+* + * {
     margin: 0;
     padding: 0;
 }
@@ -21,14 +21,12 @@
 }
 
 body, html {
-    height: 100vw;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
 section {
-    width: 100vw;
     height: 100vh;
 }
 
@@ -46,14 +44,25 @@ section {
     font-family: gothamMedium;
     src: url(../font/Gotham-Medium.otf);
 }
-body {
-    background: #ffffff;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: auto;
+
+.gothamBookFont{
+    font-family: gothamBook, sans-serif;
 }
 
-.bg {
+.gothamBlackFont{
+    font-family: gothamBlack, sans-serif;
+}
+
+.gothamMediumFont{
+    font-family: gothamMedium, sans-serif;
+}
+
+.firstSection{
+    display: flex;
+}
+
+.firstSection:before {
+    content: "";
     position: absolute;
     width: 75vw;
     height: 115vw;
@@ -64,9 +73,6 @@ body {
     margin-top: -5vh;
 }
 
-.firstSection{
-    display: flex;
-}
 .logo{
     margin-bottom: 5vh;
 }
@@ -80,7 +86,6 @@ nav {
     margin-left: 45vw;
     width: 42vw;
     height: 5vh;
-    font-family: gothamBook;
     font-size: 18px;
     z-index: 10;
 }
@@ -171,7 +176,6 @@ a:hover span:nth-child(1) {
 }
 
 .pres h1 {
-    font-family: gothamBlack;
     font-size: 35px;
     letter-spacing: 1px;
     color: #707070;
@@ -179,14 +183,12 @@ a:hover span:nth-child(1) {
 }
 
 .pres h2 {
-    font-family: gothamBook;
     letter-spacing: 2px;
     font-size: 20px;
     color: #707070;
 }
 
 .pres h3 {
-    font-family: gothamMedium;
     margin-top: 5vw;
     color: #707070;
     font-size: 18px;
@@ -198,7 +200,6 @@ a:hover span:nth-child(1) {
 }
 
 .link-btn {
-    font-family: gothamBook;
     padding: 15px 25px;
     border-radius: 25px;
     background: #41BCA0;
@@ -210,14 +211,6 @@ a:hover span:nth-child(1) {
 .link-btn:hover {
     background:#329680;
     color: #ffffff;
-}
-
-.deco {
-    border-radius: 2em;
-    width: 60px;
-    height: 10px;
-    margin-top: 9em;
-    background: linear-gradient(#3C488A, #677BED);
 }
 
 
@@ -253,7 +246,6 @@ a:hover span:nth-child(1) {
 .secondSection {
     display: flex;
     justify-content: center;
-    font-family: gothamBook;
 }
 
 .bg2 {
@@ -278,7 +270,6 @@ a:hover span:nth-child(1) {
 
 .mainContainer h3 {
     padding: 0 4.5vw;
-    font-family: gothamMedium;
     margin-top: 5vw;
     color: #707070;
     font-size: 18px;
@@ -385,19 +376,16 @@ a:hover span:nth-child(1) {
 
 .s3left h2 {
     line-height: 70px;
-    font-family: gothamMedium;
     color: #ffffff;
     font-size: 3rem;
 }
 
 .s3left h3 {
-    font-family: gothamMedium;
     color: #ffffff;
     font-size: 1.4rem;
 }
 
 .s3right p {
-    font-family: gothamBlack;
     color: #ffffff;
     font-size: 1.6rem;
     letter-spacing: 3px;
@@ -410,7 +398,6 @@ a:hover span:nth-child(1) {
 }
 
 .s3responsive p {
-    font-family: gothamBlack;
     color: #ffffff;
     font-size: 1.6rem;
     letter-spacing: 3px;
@@ -479,7 +466,6 @@ a:hover span:nth-child(1) {
 
 .input-fields .input, textarea, button{
     font-size: 24px;
-    font-family: gothamBlack;
     text-transform: uppercase;
     margin: 30px 0;
     border: none;
@@ -538,7 +524,6 @@ footer {
 }
 
 .copyrights {
-    font-family: gothamBook;
     color: #ffffff;
     font-size: 0.8rem;
     padding: 5vh 10vw;
@@ -689,9 +674,6 @@ footer {
         top: 68vh;
         left: 82vw;
     }
-    .deco {
-        display: none;
-    }
 
     .windowProject {
         height: 250px;
@@ -735,7 +717,7 @@ footer {
         padding: 5vw 7vw;
     }
 
-    .bg {
+    .firstSection:before {
         width: 90vw;
         height: 145vh;
     }
@@ -777,7 +759,7 @@ footer {
         margin-left: 35vw;
     }
 
-    .bg {
+    .firstSection:before {
         width: 100vw;
         background-position-x: -5vw;
     }
@@ -856,11 +838,11 @@ footer {
         margin: 2vh 3vw;
     }
 
-    .bg{
+    .firstSection:before{
         display: none;
     }
-
-    .bg4{
+    .firstSection::after{
+        content: "";
         width: 100vw;
         height: 100vh;
         position: absolute;

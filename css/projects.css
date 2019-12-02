@@ -4,7 +4,6 @@
 }
 
 body, html {
-    height: 100vw;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -37,7 +36,6 @@ body, html {
   }
 
 .firstSection {
-    width: 100vw;
     height: 100vh;
 }
 
@@ -55,14 +53,25 @@ body, html {
     font-family: gothamMedium;
     src: url(../font/Gotham-Medium.otf);
 }
-body {
-    background: #ffffff;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: auto;
+
+.gothamBookFont{
+    font-family: gothamBook, sans-serif;
 }
 
-.bg {
+.gothamBlackFont{
+    font-family: gothamBlack, sans-serif;
+}
+
+.gothamMediumFont{
+    font-family: gothamMedium, sans-serif;
+}
+
+.firstSection{
+    display: flex;
+}
+
+.firstSection:before {
+    content: "";
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -72,15 +81,10 @@ body {
     z-index: -1;
 }
 
-.firstSection{
-    display: flex;
-}
-
 nav {
     margin-left: 45vw;
     width: 42vw;
     height: 5vh;
-    font-family: gothamBook;
     font-size: 18px;
     z-index: 10;
 }
@@ -131,14 +135,12 @@ a:hover span:nth-child(1) {
 }
 
 .pres h1 {
-    font-family: gothamBlack;
     font-size: 35px;
     letter-spacing: 3px;
     color: #eeeeee;
 }
 
 .pres h2 {
-    font-family: gothamBook;
     letter-spacing: 2px;
     font-size: 25px;
     margin-top: 3vh;
@@ -147,7 +149,6 @@ a:hover span:nth-child(1) {
 }
 
 .pres h3 {
-    font-family: gothamMedium;
     margin-top: 15vh;
     color: #eeeeee;
     font-size: 18px;
@@ -235,7 +236,6 @@ a:hover span:nth-child(1) {
 }
 
 .link-btn {
-    font-family: gothamBook;
     padding: 15px 25px;
     border-radius: 25px;
     background: #41BCA0;
@@ -258,7 +258,6 @@ a:hover span:nth-child(1) {
 .secondSection {
     display: flex;
     justify-content: center;
-    font-family: gothamBook;
 }
 
 
@@ -333,13 +332,11 @@ a:hover span:nth-child(1) {
 }
 
 .description h2 {
-    font-family: gothamBlack;
     font-size: 20px;
     color: #6A7FF4;
 }
 
 .description p {
-    font-family: gothamBook;
     font-size: 14px;
     color: #707070;
 }
@@ -360,7 +357,6 @@ footer {
 }
 
 .copyrights {
-    font-family: gothamBook;
     color: #ffffff;
     font-size: 0.8rem;
     padding: 5vh 10vw;
