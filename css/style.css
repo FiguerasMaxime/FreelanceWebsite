@@ -82,6 +82,7 @@ nav {
     height: 5vh;
     font-family: gothamBook;
     font-size: 18px;
+    z-index: 10;
 }
 
 nav ul {
@@ -127,13 +128,13 @@ a:hover span:nth-child(1) {
     position: absolute;
     width: 35vw;
     margin-left: 55vw;
-    margin-top: 10vh;
+    margin-top: 0vh;
 }
 
 .svg-content {
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: 8%;
     left: 0;
 }
 
@@ -233,6 +234,11 @@ a:hover span:nth-child(1) {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.social:hover{
+    filter: brightness(0.7);
+}
+
 
 .social img {
     width: 20px;
@@ -429,6 +435,20 @@ a:hover span:nth-child(1) {
     opacity: 0;
 }
 
+[data-scroll] {
+    transition: transform 3s;
+}
+
+[data-scroll="in"]{
+    transform: translateY(0);
+}
+
+[data-scroll="out"]{
+    transform: translateY(200px);
+}
+
+
+
 @keyframes animateLogoLetter {
     from {
         transform: translateX(200px) translateY(152px);
@@ -600,7 +620,7 @@ footer {
 
 @media screen and (max-width: 1536px) {
     .svg-container {
-        margin-top: 18vh;
+        margin-top: 5vh;
     }
     nav {
         margin-left: 50vw;
@@ -666,7 +686,8 @@ footer {
         height: 39vh;
     }
     .socialMedia {
-        top: 71vh;
+        top: 68vh;
+        left: 82vw;
     }
     .deco {
         display: none;
@@ -874,8 +895,8 @@ footer {
         transform: translate(-50%, -50%);
     }
     .socialMedia {
-        left: 83vw;
-        top: 75vh;
+        left: 79vw;
+        top: 76vh;
     }
     .social {
         padding: .3em;
@@ -1002,7 +1023,11 @@ footer {
 
 @media screen and (max-width:375px) and (min-height:812px) {
     .socialMedia{
-        top: 60vh;
+        top: 62vh;
+        left: 77vw;
+    }
+    .svg-container{
+        margin-top: 44vh;
     }
 }
 
