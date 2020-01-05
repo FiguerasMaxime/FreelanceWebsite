@@ -7,7 +7,6 @@ body, html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 /* couleurs SVG */
@@ -35,10 +34,6 @@ body, html {
   .f {
     fill: #215e50;
   }
-
-.firstSection {
-    height: 100vh;
-}
 
 @font-face {
     font-family: gothamBook;
@@ -68,7 +63,9 @@ body, html {
 }
 
 .firstSection{
+    height: 100vh;
     display: flex;
+    overflow-x: hidden;
 }
 
 .firstSection:before {
@@ -259,6 +256,7 @@ a:hover span:nth-child(1) {
 .secondSection {
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 
@@ -355,6 +353,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    overflow-x: hidden;
 }
 
 .copyrights {
