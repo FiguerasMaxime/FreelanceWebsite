@@ -236,10 +236,10 @@ a:hover span:nth-child(1) {
     position: absolute;
     background: url(../svg/bg2.svg) no-repeat;
     z-index: -1;
-    width: 105vw;
+    width: 100vw;
     height: 170vh;
-    top: 130vh;
-    left: -5vw;
+    top: 140vh;
+    left: 0;
 }
 
 .mainContainer {
