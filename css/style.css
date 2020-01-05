@@ -130,7 +130,7 @@ a:hover span:nth-child(1) {
     vertical-align: middle;
     overflow: hidden;
     position: absolute;
-    width: 35vw;
+    width: 33vw;
     margin-left: 55vw;
     margin-top: 0vh;
 }
@@ -138,7 +138,7 @@ a:hover span:nth-child(1) {
 .svg-content {
     display: inline-block;
     position: absolute;
-    top: 2%;
+    top: 6%;
     left: 0;
 }
 
@@ -197,21 +197,6 @@ a:hover span:nth-child(1) {
 .pres-btn {
     margin-top: 3em;
 }
-
-.link-btn {
-    padding: 15px 25px;
-    border-radius: 25px;
-    background: #41BCA0;
-    color: #ffffff;
-    text-decoration: none;
-    margin-top: 3vw;
-}
-
-.link-btn:hover {
-    background:#329680;
-    color: #ffffff;
-}
-
 
 .socialMedia {
     position: absolute;
@@ -301,7 +286,6 @@ a:hover span:nth-child(1) {
     animation-name: animateProject;
     animation-direction: alternate;
     background-color: #eeeeee;
-
 }
 
 @keyframes animateProject {
@@ -611,6 +595,7 @@ footer {
 @media screen and (max-width: 1536px) {
     .svg-container {
         margin-top: 5vh;
+        margin-left: 60vw;
     }
     nav {
         margin-left: 50vw;
@@ -621,7 +606,7 @@ footer {
 
 @media screen and (max-width: 1300px){
     .pres{
-        margin-top: 23vh;
+        margin-top: 18vh;
     }
 }
 
@@ -641,10 +626,6 @@ footer {
         margin-top: 12vh;
     }
 
-    .link-btn {
-        font-size: 13px;
-        padding: 10px 17px;
-    }
     .project-btn{
         font-size: 13px;
         padding: 10px 17px;
@@ -766,11 +747,10 @@ footer {
 
     .firstSection:before {
         width: 100vw;
-        background-position-x: -5vw;
     }
 
     .pres {
-        margin-top: 45vh;
+        margin-top: 30vh;
     }
 
     .pres h1 {
@@ -779,9 +759,9 @@ footer {
     }
 
     .svg-container {
-        margin-top: 18vh;
-        margin-left: 45vw;
-        width: 45vw;
+        margin-top: 12vh;
+        margin-left: 50vw;
+        width: 40vw;
     }
 
     .windowProject {
@@ -983,7 +963,7 @@ footer {
 
 @media screen and (max-width:375px) {
     .svg-container{
-        margin-top: 47vh;
+        margin-top: 50vh;
     }
     .pres h3 {
         margin-top: 53vh;
