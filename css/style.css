@@ -340,7 +340,7 @@ a:hover span:nth-child(1) {
 
 .s3 {
     margin-top: 11vh;
-    padding: 10px 5vw;
+    padding: 10px 0 10px 5vw;
     justify-content: space-between;
     display: flex;
     width: 90vw;
@@ -492,7 +492,6 @@ button:hover {
 }
 
 footer {
-    width: 100vw;
     height: 30vh;
     background: url(../svg/bg3.svg) no-repeat;
     background-size: cover;

@@ -341,7 +341,7 @@ a:hover span:nth-child(1) {
 }
 
 footer {
-    width: 100vw;
+    /* width: 100vw; */
     height: 30vh;
     background: url(../svg/bg3.svg) no-repeat;
     background-size: cover;
