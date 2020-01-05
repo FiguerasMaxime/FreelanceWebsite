@@ -92,7 +92,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-around;
-    padding: 2vw 7vw;
+    padding: 3vh 7vw;
 }
 
 nav ul li {
