@@ -1,21 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1382.775" height="1468.959" viewBox="0 0 1382.775 1468.959">
-  <defs>
-    <filter id="Tracé_2" x="0" y="0" width="1382.775" height="1468.959" filterUnits="userSpaceOnUse">
-      <feOffset dx="-10" dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <linearGradient id="linear-gradient" x1="0.948" y1="-0.009" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#6a7ff4"/>
-      <stop offset="1" stop-color="#35407a"/>
-    </linearGradient>
-  </defs>
-  <g id="Groupe_110" data-name="Groupe 110" transform="translate(-542.765 15)">
-    <g transform="matrix(1, 0, 0, 1, 542.77, -15)" filter="url(#Tracé_2)">
-      <path id="Tracé_2-2" data-name="Tracé 2" d="M626.021,0S560.552,314.544,853.192,458.707c245.212,106.728,297.245,196.112,358.636,411.958,17.312,60.869,31.04,97.672,49.81,129.387,36.352,61.414,92.282,81.028,99.513,82.953s6.044,1.328,36.841,5.905,61.786,15.9,75.309,22.635c12.651,7.2,103.038,65.718,124.312,97.8,2.936,7.045,2.92-7.125,22.035,51.775,1.737,20.185,62.275,104.749,95.635,125.767,125.779,79.245,257.256,44.469,257.256,44.469V0Z" transform="translate(-594.77 12)" fill="#41bca0"/>
-    </g>
-    <path id="Tracé_1" data-name="Tracé 1" d="M626.021,0s-86.9,324.06,189.05,469.222c245.212,106.728,321.379,180.56,382.771,396.407,21.259,81.645,32.48,107.05,51.25,138.764,30.851,55.8,83.532,75.624,83.532,75.624s14.2,2.226,19.384,2.907c19.709,2.588,83.148,9.909,158.221,89.017s35.7,111.134,150.615,190.381c142.11,83.411,259.6,54.245,259.6,54.245L1920.757,0Z" fill="url(#linear-gradient)"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1382.8 1469" style="enable-background:new 0 0 1382.8 1469;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#41BCA0;}
+	.st1{fill:url(#Tracé_1_1_);}
+</style>
+<g id="Groupe_110" transform="translate(-542.765 15)">
+	<g transform="matrix(1, 0, 0, 1, 542.77, -15)">
+		<path id="Tracé_2-2_1_" class="st0" d="M36,0c0,0-65.5,314.5,227.2,458.7c245.2,106.7,297.2,196.1,358.6,412
+			c17.3,60.9,31,97.7,49.8,129.4c36.4,61.4,92.3,81,99.5,83s6,1.3,36.8,5.9s61.8,15.9,75.3,22.6c12.7,7.2,103,65.7,124.3,97.8
+			c2.9,7,2.9-7.1,22,51.8c1.7,20.2,62.3,104.7,95.6,125.8c125.8,79.2,257.3,44.5,257.3,44.5V0H36z"/>
+	</g>
+	
+		<linearGradient id="Tracé_1_1_" gradientUnits="userSpaceOnUse" x1="1102.2874" y1="0.4086" x2="1101.8394" y2="1.4176" gradientTransform="matrix(1307.7131 0 0 1421.5065 -1439856.25 -720.5176)">
+		<stop  offset="0" style="stop-color:#6A7FF4"/>
+		<stop  offset="1" style="stop-color:#35407A"/>
+	</linearGradient>
+	<path id="Tracé_1" class="st1" d="M630.8-12c0,0-86.9,324.1,189,469.2c245.2,106.7,321.4,180.6,382.8,396.4
+		c21.3,81.6,32.5,107,51.2,138.8c30.9,55.8,83.5,75.6,83.5,75.6s14.2,2.2,19.4,2.9c19.7,2.6,83.1,9.9,158.2,89
+		s35.7,111.1,150.6,190.4c142.1,83.4,259.6,54.2,259.6,54.2L1925.5-12H630.8z"/>
+</g>
 </svg>
